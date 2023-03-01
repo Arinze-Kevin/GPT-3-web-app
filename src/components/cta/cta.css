@@ -5,6 +5,7 @@
     flex-direction: row;
     padding: 2rem;
     margin: 4rem;
+    margin-top: 0rem;
     border-radius: 1rem;
     background: var(--gradient-bar);
 }
@@ -52,6 +53,7 @@
 @media screen and (max-width: 550px) {
     .gpt3__cta {
         margin: 4rem 2rem;
+        margin-top: -1.5rem;
     }
 
     .gpt3__cta-content h3 {
@@ -68,7 +70,7 @@
 @media screen and (max-width: 380px) {
 
     .gpt3__cta {
-        margin-top: -1rem;
+        margin-top: -1.5rem;
     }
 
     .gpt3__cta-content h3 {
